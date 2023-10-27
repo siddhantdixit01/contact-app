@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 const mongoUri = 'mongodb+srv://siddhantdixit97:StG7MYhISzSAOdgy@cluster0.cqtxqdf.mongodb.net/contacts';
 
 app.use(cors(
-  origin:[""],
+  origin:["https://contact-fs1v0098o-sids-projects-57488fea.vercel.app/"],
   methods:["POST","GET"],
   credentials: true
 ));
