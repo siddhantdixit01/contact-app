@@ -9,7 +9,7 @@ function ContactList() {
 
   const fetchContacts = async () => {
     try {
-      const response = await axios.get('https://contact-app-lake-rho.vercel.app/api/contacts');
+      const response = await axios.get('https://contact-app-api.vercel.app/api/contacts');
       setContacts(response.data);
       setLoading(false);
     } catch (error) {
