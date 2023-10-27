@@ -15,7 +15,7 @@ function ContactImport() {
       formData.append('file', selectedFile);
 
       try {
-        const response = await axios.post('http://localhost:5000/api/import-contacts', formData, {
+        const response = await axios.post('https://contact-app-lake-rho.vercel.app/api/import-contacts', formData, {
           headers: {
             'Content-Type': 'multipart/form-data',
           },
