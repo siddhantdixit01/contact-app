@@ -1,2 +1,2 @@
 # contact-app
- Import contact feature
+ Import contacts feature.
