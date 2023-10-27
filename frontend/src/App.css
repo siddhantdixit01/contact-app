@@ -2,6 +2,11 @@
   width: 60%;
   margin: auto;
 }
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
 
 .button{
   text-align: end;
